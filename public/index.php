@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div>
-    <h1>Welcome to the Login Page</h1>
-    <p>Please enter your credentials to access your account.</p>
-  </div>
-  <div class="loginform">
-    <h1>Login</h1>
-    <form action="login.php" method="post">
-      <input type="text" name="username" placeholder="Username" required>
-      <input type="password" name="password" placeholder="Password" required>
-      <button type="submit">Login</button>
-    </form>
+<?php
+declare(strict_types=1);
 
-  </div>
-</body>
-</html>
+defined('FCPATH') || define('FCPATH', realpath(__DIR__) . DIRECTORY_SEPARATOR);
+
+use CodeIgniter\Boot;
+use Config\Paths;
+
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+
+require __DIR__ . '/../app/Config/Paths.php';
+$paths = new Paths();
+
+require $paths->systemDirectory . '/Boot.php';
+
+// Boot the framework for web requests
+Boot::bootWeb($paths);

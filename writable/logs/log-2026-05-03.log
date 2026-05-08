@@ -1,0 +1,55 @@
+DEBUG - 2026-05-03 11:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 11:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-03 15:08:03 --> ErrorException: include(helpers/navbar.php): Failed to open stream: No such file or directory
+[Method: GET, Route: landingpage]
+in APPPATH/Views/pages/landingpage.php on line 1.
+ 1 APPPATH/Views/pages/landingpage.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(helpers/navbar.php): Failed to open stream: No such file or directory', '/var/www/html/app/Views/pages/landingpage.php', 1)
+ 2 APPPATH/Views/pages/landingpage.php(1): include()
+ 3 SYSTEMPATH/View/View.php(240): include('/var/www/html/app/Views/pages/landingpage.php')
+ 4 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('pages/landingpage', [], true)
+ 6 APPPATH/Controllers/LandingPageController.php(9): view('pages/landingpage')
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LandingPageController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPageController))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(19): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-05-03 15:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-03 15:09:15 --> ErrorException: include(helpers/navbar.php): Failed to open stream: No such file or directory
+[Method: GET, Route: landingpage]
+in APPPATH/Views/pages/landingpage.php on line 11.
+ 1 APPPATH/Views/pages/landingpage.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(helpers/navbar.php): Failed to open stream: No such file or directory', '/var/www/html/app/Views/pages/landingpage.php', 11)
+ 2 APPPATH/Views/pages/landingpage.php(11): include()
+ 3 SYSTEMPATH/View/View.php(240): include('/var/www/html/app/Views/pages/landingpage.php')
+ 4 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('pages/landingpage', [], true)
+ 6 APPPATH/Controllers/LandingPageController.php(9): view('pages/landingpage')
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\LandingPageController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPageController))
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(19): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-05-03 15:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-03 15:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
